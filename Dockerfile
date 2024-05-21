@@ -18,7 +18,8 @@ RUN pip install --upgrade pip virtualenv \
     && virtualenv .venv \
     && source .venv/bin/activate \
     && make install
-
+    
+CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]
 # TensorBoard
 EXPOSE 6006
 # Jupyter Notebook

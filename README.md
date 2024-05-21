@@ -12,3 +12,6 @@ You can run the container using :
 `docker run -p 8888:8888 <image_name>`
 
 Open the JupyterNotebook asscociated to the 8888 
+
+Link : 
+https://www.kaggle.com/code/prashant111/svm-classifier-tutorial
