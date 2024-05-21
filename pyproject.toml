@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "pulsar-star"
+version = "0.1.0"
+description = ""
+authors = ["g0rg0ne"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "*"
+jupyterlab_server = "*"
+jupyterlab = "*"
+pyrootutils = "*"
+loguru = "*"
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+scipy = "*"
+seaborn = "*"
+scikit-learn = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
