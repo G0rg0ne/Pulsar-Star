@@ -15,3 +15,9 @@ Open the JupyterNotebook asscociated to the 8888
 
 Link : 
 https://www.kaggle.com/code/prashant111/svm-classifier-tutorial
+
+docker build -t pulsar_svm .
+
+docker run -it --rm -v $(pwd):/workdir -p 8888:8888 pulsar_svm /bin/bash
+
+jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root
